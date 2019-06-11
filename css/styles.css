@@ -1,0 +1,29 @@
+.container-bottom {
+  background-color: #01aba2;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  padding: 45px;
+}
+
+.container {
+  background-color:#a9e1c6;
+}
+
+.jumbotron {
+  background-color: #01aba2;
+}
+
+h3 {
+  text-align: left;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+#resultToWarnings {
+  display: none;
+}
+#goodResult {
+  display: none;
+}

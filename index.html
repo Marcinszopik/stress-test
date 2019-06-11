@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+      <div class="container">
+        <div class="jumbotron text-center">
+          <h1>Stress Test</h1>
+        </div>
+        <form id="warning">
+          <div class="form-group">
+            <h3>WARNING SIGNS</h3>
+            <input type="checkbox" name="warning" value="sleep-loss">Loss of sleep<br>
+            <input type="checkbox" name="warning" value="appetite-loss">Loss of appetite<br>
+            <input type="checkbox" name="warning" value="moodiness">Moodiness<br>
+            <input type="checkbox" name="warning" value="fatigue">Fatigue<br>
+            <input type="checkbox" name="warning" value="weight-loss">Weight loss<br>
+            <input type="checkbox" name="warning" value="drinking">Drinking<br>
+          </div>
+          <br>
+          <div class="form-group">
+            <h3>HEALTH SYMPTOMS</h3>
+            <input type="checkbox" name="symptoms" value="blood-pressure">High blood pressure<br>
+            <input type="checkbox" name="symptoms" value="anxiety">Anxiety<br>
+            <input type="checkbox" name="symptoms" value="diabetes">Diabetes<br>
+            <input type="checkbox" name="symptoms" value="heart-disese">Heart disease<br>
+            <input type="checkbox" name="symptoms" value="weight-loss">Weight loss<br>
+          </div>
+          <div class="container-button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <div class="container-bottom text-center">
+          <p>Based on your answers, our suggestions to you would be:</p>
+          <span id="resultToWarnings">
+            <ul>
+              <li>Ask your doctor for help</li>
+              <li>Exercise more</li>
+              <li>Go outside</li>
+            </ul>
+          </span>
+          <span id="goodResult">
+          "You are pretty healthy! Good job!"
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
